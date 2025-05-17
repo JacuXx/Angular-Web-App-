@@ -1,2 +1,7 @@
 # Angular-Web-App-
-Aplicación Angular moderna que sirve como catálogo completo de los componentes de Angular Material.
+Modern Angular app that serves as a complete catalog of Angular Material components.
+
+
+
+
+
