@@ -1,0 +1,41 @@
+# Angular build files and cache
+.angular/
+dist/
+tmp/
+out-tsc/
+bazel-out/
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# IDEs and editors
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+.vscode/
+
+# Misc
+.sass-cache/
+connect.lock
+coverage/
+libpeerconnection.log
+testem.log
+typings/
+.env
+.env.*
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Project specific
+generated-icon.png
+
+node_modules

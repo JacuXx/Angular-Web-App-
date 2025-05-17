@@ -1,0 +1,77 @@
+/* You can add global styles to this file, and also import other style files */
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Roboto+Mono&display=swap');
+
+html, body { 
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #fafafa;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+pre {
+  background-color: #2d2d2d;
+  color: #f8f8f2;
+  padding: 16px;
+  border-radius: 4px;
+  overflow-x: auto;
+  font-family: 'Roboto Mono', monospace;
+}
+
+code {
+  font-family: 'Roboto Mono', monospace;
+}
+
+/* Estilos para código resaltado */
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-built_in,
+.hljs-name,
+.hljs-tag {
+  color: #e06c75;
+}
+
+.hljs-string,
+.hljs-attr,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-selector-attr,
+.hljs-selector-pseudo {
+  color: #98c379;
+}
+
+.hljs-attribute,
+.hljs-number,
+.hljs-literal {
+  color: #d19a66;
+}
+
+.hljs-symbol,
+.hljs-bullet,
+.hljs-link,
+.hljs-meta,
+.hljs-selector-pseudo,
+.hljs-template-tag,
+.hljs-template-variable {
+  color: #61aeee;
+}
+
+/* Personalización de temas */
+.mat-mdc-card {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 599px) {
+  html, body {
+    font-size: 14px;
+  }
+}
